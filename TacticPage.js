@@ -2,7 +2,6 @@ var pieces = [
     {
         position: "e1",
         piecesymbol: "\u2654",
-        caputred: false,
         incheck: false,
         type: "king",
         color: "white",
@@ -12,7 +11,6 @@ var pieces = [
     {
         position: "d1",
         piecesymbol: "\u2655",
-        captured: false,
         type: "queen",
         color: "white",
     },
@@ -20,7 +18,6 @@ var pieces = [
     {
         position: "a1",
         piecesymbol: "\u2656",
-        captured: false,
         type: "rook",
         color: "white",
         castle: true,
@@ -29,7 +26,6 @@ var pieces = [
     {
         position: "h1",
         piecesymbol: "\u2656",
-        captured: false,
         type: "rook",
         color: "white",
         castle: true,
@@ -38,7 +34,6 @@ var pieces = [
     {
         position: "c1",
         piecesymbol: "\u2657",
-        captured: false,
         type: "bishop",
         color: "white",
     },
@@ -46,7 +41,6 @@ var pieces = [
     {
         position: "f1",
         piecesymbol: "\u2657",
-        captured: false,
         type: "bishop",
         color: "white",
     },
@@ -54,7 +48,6 @@ var pieces = [
     {
         position: "b1",
         piecesymbol: "\u2658",
-        captured: false,
         type: "knight",
         color: "white",
     },
@@ -62,7 +55,6 @@ var pieces = [
     {
         position: "g1",
         piecesymbol: "\u2658",
-        caputred: false,
         type: "knight",
         color: "white",
     },
@@ -70,7 +62,6 @@ var pieces = [
     {
         position: "a2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -80,7 +71,6 @@ var pieces = [
     {
         position: "b2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -90,7 +80,6 @@ var pieces = [
     {
         position: "c2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -100,7 +89,6 @@ var pieces = [
     {
         position: "d2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -110,7 +98,6 @@ var pieces = [
     {
         position: "e2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -120,7 +107,6 @@ var pieces = [
     {
         position: "f2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -130,7 +116,6 @@ var pieces = [
     {
         position: "g2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -140,7 +125,6 @@ var pieces = [
     {
         position: "h2",
         piecesymbol: "\u2659",
-        captured: false,
         type: "pawn",
         color: "white",
         ep: false,
@@ -150,7 +134,6 @@ var pieces = [
     {
         position: "e8",
         piecesymbol: "\u265A",
-        caputred: false,
         incheck: false,
         type: "king",
         color: "black",
@@ -160,7 +143,6 @@ var pieces = [
     {
         position: "d8",
         piecesymbol: "\u265B",
-        captured: false,
         type: "queen",
         color: "black",
     },
@@ -168,7 +150,6 @@ var pieces = [
     {
         position: "a8",
         piecesymbol: "\u265C",
-        captured: false,
         type: "rook",
         color: "black",
         castle: true,
@@ -177,7 +158,6 @@ var pieces = [
     {
         position: "h8",
         piecesymbol: "\u265C",
-        captured: false,
         type: "rook",
         color: "black",
         castle: true,
@@ -186,7 +166,6 @@ var pieces = [
     {
         position: "c8",
         piecesymbol: "\u265D",
-        captured: false,
         type: "bishop",
         color: "black",
     },
@@ -194,7 +173,6 @@ var pieces = [
     {
         position: "f8",
         piecesymbol: "\u265D",
-        captured: false,
         type: "bishop",
         color: "black",
     },
@@ -202,7 +180,6 @@ var pieces = [
     {
         position: "b8",
         piecesymbol: "\u265E",
-        captured: false,
         type: "knight",
         color: "black",
     },
@@ -210,7 +187,6 @@ var pieces = [
     {
         position: "g8",
         piecesymbol: "\u265E",
-        caputred: false,
         type: "knight",
         color: "black",
     },
@@ -218,7 +194,6 @@ var pieces = [
     {
         position: "a7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -228,7 +203,6 @@ var pieces = [
     {
         position: "b7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "bpawn",
         color: "black",
         ep: false,
@@ -238,7 +212,6 @@ var pieces = [
     {
         position: "c7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -248,7 +221,6 @@ var pieces = [
     {
         position: "d7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -258,7 +230,6 @@ var pieces = [
     {
         position: "e7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -268,7 +239,6 @@ var pieces = [
     {
         position: "f7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -278,7 +248,6 @@ var pieces = [
     {
         position: "g7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -288,7 +257,6 @@ var pieces = [
     {
         position: "h7",
         piecesymbol: "\u265F",
-        captured: false,
         type: "pawn",
         color: "black",
         ep: false,
@@ -324,13 +292,15 @@ function clicked(square){
     }
     else if (lenar == 1){
         clickedarray.push(square);
-        if (findpiece(clickedarray[1]) != -1){
-            if ((pieces[findpiece(clickedarray[0])].color == pieces[findpiece(clickedarray[1])].color) && findpiece(clickedarray[1]) != -1){
+        if (findpiece(clickedarray[1]) != -1 && pieces[findpiece(clickedarray[0])].color == pieces[findpiece(clickedarray[1])].color){
                 clickedarray = [clickedarray[1]];
-        }
+
 
         }
         else if (legal(clickedarray) == true){
+            if (findpiece(clickedarray[1]) != -1){
+                pieces[findpiece(clickedarray[1])].position = null
+            }
             move(clickedarray);
             clickedarray = [];
         }
@@ -366,6 +336,7 @@ function legal(clickedarray){
     if (start == end){
         return false
     }
+
 
     switch(pieces[piece].type){
         case "king":
@@ -477,7 +448,34 @@ function legal(clickedarray){
             break;
 
         default:
-            return true;
+            if(start[0] == end[0]) {
+                if (findpiece(arrayToPosition(end)) != -1){
+                    return false
+                }
+                if (pieces[findpiece(arrayToPosition(start))].color == "white") {
+                    if (end[1] - start[1] == 1) {
+                        return true
+                    } else if (end[1] - start[1] == 2 && findpiece(arrayToPosition([end[0], end[1] - 1])) == -1 && pieces[findpiece(arrayToPosition(start))].moved == false) {
+                        pieces[findpiece(arrayToPosition(start))].moved = true
+                        return true
+                    }
+                } else {
+                    if (start[1] - end[1] == 1) {
+                        return true
+                    } else if (start[1] - end[1] == 2 && findpiece(arrayToPosition([start[0], start[1] - 1])) == -1 && pieces[findpiece(arrayToPosition(start))].moved == false) {
+                        pieces[findpiece(arrayToPosition(start))].moved = true
+                        return true
+                    }
+                }
+            }
+            else if(findpiece(arrayToPosition(end)) != -1){
+                k1 = Math.abs(start[0]-end[0])
+                k2 = start[1]-end[1]
+                if (k1 == 1 && k2 ==1){
+                    return true
+                }
+            }
+            return false
             break;
     }
 }
@@ -511,8 +509,6 @@ function ischeck(clickedarray,color){
 clicked("e2")
 clicked("e4")
 clicked("e7")
-clicked("e6")
-clicked("d1")
-clicked("f3")
-
-
+clicked("e5")
+clicked("e4")
+clicked("e5")
