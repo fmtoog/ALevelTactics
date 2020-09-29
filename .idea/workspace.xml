@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="410ea859-684c-4e82-a13c-ff0541e1e9f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hSd9PRjoecom1sr5szr90LKaQY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.TacticPage.js">
+    <configuration name="TacticPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ALevelTactics/TacticPage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="TacticPage.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="TacticPage.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="Testing.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.TacticPage.js" />
+        <item itemvalue="JavaScript Debug.TacticPage.html" />
+        <item itemvalue="Node.js.Testing.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="410ea859-684c-4e82-a13c-ff0541e1e9f8" name="Default Changelist" comment="" />
+      <created>1600008279821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600008279821</updated>
+      <workItem from="1600008282879" duration="15279000" />
+      <workItem from="1600782747814" duration="7234000" />
+      <workItem from="1601387567280" duration="2028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1601388603615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601388603615" />
+    <state x="554" y="266" key="Github.ShareDialog" timestamp="1601389493846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="554" y="266" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601389493846" />
+    <state x="462" y="71" key="Github.UntrackedFilesDialog" timestamp="1601389607560">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="71" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601389607560" />
+    <state width="1345" height="188" key="GridCell.Tab.0.bottom" timestamp="1601388822982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601388822982" />
+    <state width="1345" height="188" key="GridCell.Tab.0.center" timestamp="1601388822982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601388822982" />
+    <state width="1345" height="188" key="GridCell.Tab.0.left" timestamp="1601388822982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601388822982" />
+    <state width="1345" height="188" key="GridCell.Tab.0.right" timestamp="1601388822982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601388822982" />
+    <state width="1345" height="253" key="GridCell.Tab.1.bottom" timestamp="1600789956764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600789956764" />
+    <state width="1345" height="253" key="GridCell.Tab.1.center" timestamp="1600789956764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600789956764" />
+    <state width="1345" height="253" key="GridCell.Tab.1.left" timestamp="1600789956763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600789956763" />
+    <state width="1345" height="253" key="GridCell.Tab.1.right" timestamp="1600789956764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600789956764" />
+    <state width="1345" height="253" key="GridCell.Tab.2.bottom" timestamp="1600789956765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600789956765" />
+    <state width="1345" height="253" key="GridCell.Tab.2.center" timestamp="1600789956765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1600789956765" />
+    <state width="1345" height="253" key="GridCell.Tab.2.left" timestamp="1600789956764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1600789956764" />
+    <state width="1345" height="253" key="GridCell.Tab.2.right" timestamp="1600789956765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1600789956765" />
+    <state width="1345" height="253" key="GridCell.Tab.3.bottom" timestamp="1600789956766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600789956766" />
+    <state width="1345" height="253" key="GridCell.Tab.3.center" timestamp="1600789956765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1600789956765" />
+    <state width="1345" height="253" key="GridCell.Tab.3.left" timestamp="1600789956765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1600789956765" />
+    <state width="1345" height="253" key="GridCell.Tab.3.right" timestamp="1600789956765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="253" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1600789956765" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1601389258856">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601389258856" />
+    <state x="399" y="172" key="jetbrains.nodejs.interpreters-dialog" timestamp="1600101580280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="172" key="jetbrains.nodejs.interpreters-dialog/0.0.1366.728@0.0.1366.728" timestamp="1600101580280" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1600785007102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600785007102" />
+  </component>
+</project>

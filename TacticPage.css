@@ -1,0 +1,45 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+    color: black;
+}
+
+.game{
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid gray;
+}
+
+.w{
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.w:active{
+    background-color: grey;
+}
+
+.b{
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.b:active{
+    background-color: grey;
+}
+#a8{
+
+}
