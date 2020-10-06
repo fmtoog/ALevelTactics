@@ -1,4 +1,6 @@
 var pieces = [
+    //array which contains all 32 chess pieces as objects containing many attributes.
+    //An index of this array can be used to identify a piece
     {
         position: "e1",
         piecesymbol: "\u2654",
@@ -262,25 +264,31 @@ var pieces = [
         ep: false,
         moved: false,
     }
+    //What each attribute represents:
+    //position = the square on which the piece currently resides using algebraic notation
+    //type = What kind of piece the piece is, and with that what it is allowed to do
+    //color = Whether the piece is white or black
+    //ep = Whether the special rule en passant is allowed
+    //moved = whether the piece has already moved
 ]
 
 
 var clickedarray = [];
 var whosmove = true;
 
-function positionToArray(pos){
+function positionToArray(pos){ //inputs a square ("e2") and outputs an array ([5,2])
     file = pos[0].charCodeAt(0) - 96;
     rank = parseInt(pos[1]);
     return [file,rank];
 }
 
-function arrayToPosition(arr){
+function arrayToPosition(arr){ //inputs an array ([4,7]) and outputs a square ("d7")
     file = String.fromCharCode(arr[0]+96)
     rank = String.fromCharCode(arr[1]+48)
     return file + rank
 }
 
-function clicked(square){
+function clicked(square){ //function called when the user clicks a square
     lenar = clickedarray.length;
     if (lenar == 0 ){
         if(empty(square) == false) {
