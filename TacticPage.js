@@ -290,7 +290,7 @@ function arrayToPosition(arr){ //inputs an array ([4,7]) and outputs a square ("
 
 function clicked(square){ //function called when the user clicks a square
     lenar = clickedarray.length;
-    if (lenar == 0 ){
+    if (lenar == 0 ){ //checks if the first or second square selected by user
         if(empty(square) == false) {
             clickedarray.push(square);
         }
@@ -309,7 +309,7 @@ function clicked(square){ //function called when the user clicks a square
             if (findpiece(clickedarray[1]) != -1){
                 pieces[findpiece(clickedarray[1])].position = null
             }
-            move(clickedarray);
+            move(clickedarray); //all conditions for legality met, move is executes
             clickedarray = [];
         }
         else{
@@ -321,7 +321,7 @@ function clicked(square){ //function called when the user clicks a square
 }
 
 
-function empty(clickedsquare){
+function empty(clickedsquare){ // checks if a square is empty
 
     if (findpiece(clickedsquare) != -1){
         if ((whosmove && pieces[i].color == "white") || (!whosmove && pieces[i].color == "black")){
@@ -334,28 +334,27 @@ function empty(clickedsquare){
 }
 
 
-function legal(clickedarray){
+function legal(clickedarray) { //checks whether the move is legal for the specific piece
     piece = findpiece(clickedarray[0]);
-    if (ischeck(clickedarray,piece.color) == true){
+    if (ischeck(clickedarray, piece.color) == true) {
         return false;
     }
     start = positionToArray(clickedarray[0]);
     end = positionToArray(clickedarray[1]);
-    if (start == end){
+    if (start == end) {
         return false
     }
 
 
-    switch(pieces[piece].type){
+    switch (pieces[piece].type) { //switch statement for each piece to have separate rules
         case "king":
-            if (Math.abs(start[1]-end[1]) > 1){
+            if (Math.abs(start[1] - end[1]) > 1) {
                 return false;
             }
-            if (Math.abs(start[0]-end[0] > 1)){
-                if (checkcastling(clickedarray) == true){
+            if (Math.abs(start[0] - end[0] > 1)) {
+                if (checkcastling(clickedarray) == true) {
                     return true;
-                }
-                else{
+                } else {
                     return false;
                 }
             }
@@ -368,136 +367,138 @@ function legal(clickedarray){
             break;
 
         case "rook":
-            function orthogonal() {
-                if (start[0] != end[0] && start[1] != end[1]) {
-                    return false
-                } else if (start[0] == end[0]) {
-                    if (start[1] > end [1]) {
-                        temp = end[1]
-                        end[1] = start[1]
-                        start[1] = temp
-                    }
-                    for (j = start[1] + 1; j < end[1]; j++) {
-                        if (findpiece(arrayToPosition([start[0], j])) != -1) {
-                            return false
-                        }
 
+        function orthogonal() {
+            if (start[0] != end[0] && start[1] != end[1]) {
+                return false
+            } else if (start[0] == end[0]) {
+                if (start[1] > end [1]) {
+                    temp = end[1]
+                    end[1] = start[1]
+                    start[1] = temp
+                }
+                for (j = start[1] + 1; j < end[1]; j++) {
+                    if (findpiece(arrayToPosition([start[0], j])) != -1) {
+                        return false
                     }
-                } else {
-                    if (start[0] > end [0]) {
-                        temp = end[0]
-                        end[0] = start[0]
-                        start[0] = temp
-                    }
-                    for (j = start[0] + 1; j < end[0]; j++) {
-                        if (findpiece(arrayToPosition([j, start[1]])) != -1) {
-                            return false
-                        }
+
+                }
+            } else {
+                if (start[0] > end [0]) {
+                    temp = end[0]
+                    end[0] = start[0]
+                    start[0] = temp
+                }
+                for (j = start[0] + 1; j < end[0]; j++) {
+                    if (findpiece(arrayToPosition([j, start[1]])) != -1) {
+                        return false
                     }
                 }
-                return true;
             }
+            return true;
+        }
+
             return orthogonal()
             break;
 
         case "bishop":
-            function diagonal() {
-                k1 = Math.abs(start[0] - end[0])
-                k2 = Math.abs(start[1] - end[1])
-                if (k1 == k2) {
-                    if (start[0] - end[0] == k1 && start[1] - end[1] == k1) {
-                        for (i = 1; i < start[0] - end[0]; i++) {
-                            if (findpiece(arrayToPosition([start[0] + i, start[1] + i])) != -1) {
-                                return false
-                            }
-                        }
-                    } else if (start[0] - end[0] == k1 && start[1] - end[1] == -k1) {
-                        for (i = 1; i < start[0] - end[0]; i++) {
-                            if (findpiece(arrayToPosition([start[0] - i, start[1] + i])) != -1) {
-                                return false
-                            }
 
+        function diagonal() {
+            k1 = Math.abs(start[0] - end[0])
+            k2 = Math.abs(start[1] - end[1])
+            if (k1 == k2) {
+                if (start[0] - end[0] == k1 && start[1] - end[1] == k1) {
+                    for (i = 1; i < start[0] - end[0]; i++) {
+                        if (findpiece(arrayToPosition([start[0] + i, start[1] + i])) != -1) {
+                            return false
                         }
-                    } else if (start[0] - end[0] == -k1 && start[1] - end[1] == k1) {
-                        for (i = 1; i < start[1] - end [1]; i++) {
-                            if (findpiece(arrayToPosition(start[0] + i, start[1] - i)) != -1) {
-                                return false
-                            }
+                    }
+                } else if (start[0] - end[0] == k1 && start[1] - end[1] == -k1) {
+                    for (i = 1; i < start[0] - end[0]; i++) {
+                        if (findpiece(arrayToPosition([start[0] - i, start[1] + i])) != -1) {
+                            return false
+                        }
 
+                    }
+                } else if (start[0] - end[0] == -k1 && start[1] - end[1] == k1) {
+                    for (i = 1; i < start[1] - end [1]; i++) {
+                        if (findpiece(arrayToPosition(start[0] + i, start[1] - i)) != -1) {
+                            return false
                         }
-                    } else if (start[0] - end[0] == -k1 && start[1] - end[1] == -k1) {
-                        for (i = 1; i < Math.abs(start[0] - end[0]); i++) {
-                            if (findpiece(arrayToPosition(start[0] + i, start[1] + i)) != -1) {
-                                return false
-                            }
+
+                    }
+                } else if (start[0] - end[0] == -k1 && start[1] - end[1] == -k1) {
+                    for (i = 1; i < Math.abs(start[0] - end[0]); i++) {
+                        if (findpiece(arrayToPosition(start[0] + i, start[1] + i)) != -1) {
+                            return false
                         }
                     }
                 }
-                else {
-                    return false
-                }
-                return true;
+            } else {
+                return false
             }
+            return true;
+        }
+
             return diagonal()
             break;
 
         case "knight":
-            k1 = Math.abs(start[0]-end[0])
-            k2 = Math.abs(start[1]-end[1])
-            if (k1 == 1 && k2 == 2){
+            k1 = Math.abs(start[0] - end[0])
+            k2 = Math.abs(start[1] - end[1])
+            if (k1 == 1 && k2 == 2) {
                 return true;
-            }
-            else if (k2 == 1 && k1 == 2){
+            } else if (k2 == 1 && k1 == 2) {
                 return true;
-            }
-            else{
+            } else {
                 return false
             }
             break;
 
         default:
-            if(start[0] == end[0]) {
-                if (findpiece(arrayToPosition(end)) != -1){
+            if (start[0] == end[0]) {
+                if (findpiece(arrayToPosition(end)) != -1) {
                     return false
-                }
-                if (pieces[findpiece(arrayToPosition(start))].color == "white") {
-                    if (end[1] - start[1] == 1) {
-                        return true
-                    } else if (end[1] - start[1] == 2 && findpiece(arrayToPosition([end[0], end[1] - 1])) == -1 && pieces[findpiece(arrayToPosition(start))].moved == false) {
-                        pieces[findpiece(arrayToPosition(start))].moved = true
+
+                    if (pieces[findpiece(arrayToPosition(start))].color == "white") {
+                        if (end[1] - start[1] == 1) {
+                            return true
+                        } else if (end[1] - start[1] == 2 && findpiece(arrayToPosition([end[0], end[1] - 1])) == -1 && pieces[findpiece(arrayToPosition(start))].moved == false) {
+                            pieces[findpiece(arrayToPosition(start))].moved = true
+                            return true
+                        }
+                    } else {
+                        if (start[1] - end[1] == 1) {
+                            return true
+                        } else if (start[1] - end[1] == 2 && findpiece(arrayToPosition([start[0], start[1] - 1])) == -1 && pieces[findpiece(arrayToPosition(start))].moved == false) {
+                            pieces[findpiece(arrayToPosition(start))].moved = true
+                            return true
+                        }
+                    }
+                } else if (findpiece(arrayToPosition(end)) != -1) {
+                    k1 = Math.abs(start[0] - end[0])
+                    k2 = start[1] - end[1]
+                    if (k1 == 1 && k2 == 1) {
                         return true
                     }
-                } else {
-                    if (start[1] - end[1] == 1) {
-                        return true
-                    } else if (start[1] - end[1] == 2 && findpiece(arrayToPosition([start[0], start[1] - 1])) == -1 && pieces[findpiece(arrayToPosition(start))].moved == false) {
-                        pieces[findpiece(arrayToPosition(start))].moved = true
-                        return true
-                    }
                 }
+                return false
+                break;
             }
-            else if(findpiece(arrayToPosition(end)) != -1){
-                k1 = Math.abs(start[0]-end[0])
-                k2 = start[1]-end[1]
-                if (k1 == 1 && k2 ==1){
-                    return true
-                }
-            }
-            return false
-            break;
     }
 }
 
-
-function move(clickedarray){
+function move(clickedarray){ //carries out the move
     index = findpiece(clickedarray[0]);
     pieces[index].position = clickedarray[1];
     notation = pieces[index].piecesymbol + pieces[index].position
+    document.getElementById(clickedarray[0]).innerHTML = null
+    document.getElementById(clickedarray[1]).innerHTML = pieces[index].piecesymbol
     console.log(notation)
     whosmove = !whosmove;
 }
 
-function findpiece(square){
+function findpiece(square){ // returns index of piece currently on square as parameter
     for (i = 0; i < pieces.length; i ++){
         if (square == pieces[i].position){
             return i
@@ -506,17 +507,19 @@ function findpiece(square){
     return -1;
 }
 
-function checkcastling(clickedarray){
+function checkcastling(clickedarray){ //checks if allowed to castle
     return false;
 }
 
-function ischeck(clickedarray,color){
+function ischeck(clickedarray,color){ //doesn't allow you to leave yourself in check
     return false;
 }
 
-clicked("e2")
-clicked("e4")
-clicked("e7")
-clicked("e5")
-clicked("e4")
-clicked("e5")
+function render(){
+    for (i = 0; i < pieces.length; i ++){
+        document.getElementById(pieces[i].position).innerHTML = pieces[i].piecesymbol
+    }
+}
+
+render()
+

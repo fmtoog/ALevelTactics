@@ -12,6 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="410ea859-684c-4e82-a13c-ff0541e1e9f8" name="Default Changelist" comment="Some code commented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TacticPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/TacticPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TacticPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/TacticPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TacticPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/TacticPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +70,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.TacticPage.html" />
-        <item itemvalue="Node.js.TacticPage.js" />
         <item itemvalue="Node.js.Testing.js" />
+        <item itemvalue="Node.js.TacticPage.js" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +86,7 @@
       <workItem from="1600008282879" duration="15279000" />
       <workItem from="1600782747814" duration="7234000" />
       <workItem from="1601387567280" duration="7653000" />
-      <workItem from="1601992695456" duration="1704000" />
+      <workItem from="1601992695456" duration="6884000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1601389663177</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601994544719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Some code commented">
+      <created>1601995093634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601995093634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,34 +140,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Some code commented" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="447" y="190" key="#Notifications" timestamp="1601999245886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="190" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1601999245886" />
     <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1601388603615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601388603615" />
-    <state x="554" y="266" key="Github.ShareDialog" timestamp="1601395156064">
+    <state x="554" y="266" key="Github.ShareDialog" timestamp="1601999193884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="554" y="266" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601395156064" />
+    <state x="554" y="266" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601999193884" />
     <state x="462" y="71" key="Github.UntrackedFilesDialog" timestamp="1601389607560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="71" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601389607560" />
-    <state width="672" height="253" key="GridCell.Tab.0.bottom" timestamp="1601395525475">
+    <state width="1345" height="188" key="GridCell.Tab.0.bottom" timestamp="1601997470697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="253" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601395525475" />
-    <state width="672" height="253" key="GridCell.Tab.0.center" timestamp="1601395525475">
+    <state width="1345" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601997470697" />
+    <state width="1345" height="188" key="GridCell.Tab.0.center" timestamp="1601997470697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="253" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601395525475" />
-    <state width="672" height="253" key="GridCell.Tab.0.left" timestamp="1601395525475">
+    <state width="1345" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601997470697" />
+    <state width="1345" height="188" key="GridCell.Tab.0.left" timestamp="1601997470697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="253" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601395525475" />
-    <state width="672" height="253" key="GridCell.Tab.0.right" timestamp="1601395525475">
+    <state width="1345" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601997470697" />
+    <state width="1345" height="188" key="GridCell.Tab.0.right" timestamp="1601997470697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="253" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601395525475" />
+    <state width="1345" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601997470697" />
     <state width="672" height="253" key="GridCell.Tab.1.bottom" timestamp="1601395525476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,14 +220,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="672" height="253" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1601395525477" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1601389258856">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1601999161837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601389258856" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1601994851938">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601999161837" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1601999420594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601994851938" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601999420594" />
+    <state x="478" y="248" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601999391804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="248" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601999391804" />
     <state x="399" y="172" key="jetbrains.nodejs.interpreters-dialog" timestamp="1600101580280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -221,9 +240,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600785007102" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601994277070">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601995304341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601994277070" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601995304341" />
   </component>
 </project>
